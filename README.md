@@ -13,7 +13,7 @@ In ```update-all.sh``` make sure these lines are configured to match your config
 
 Then run update-all.sh.
 - When prompted, press enter (if no error occured)
-- When the 'klipper firmware configuration' pops up, press ```q``` or ```esc```
+- When the 'klipper firmware configuration' pops up (image below), press ```q``` or ```esc```
 
 ![klipper firmware configuration image](https://github.com/devdrik/klipper-updater/blob/main/assets/klipper_firmare_configuration.png?raw=true)
 
