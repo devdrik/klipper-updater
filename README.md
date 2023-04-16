@@ -20,5 +20,10 @@ Then run update-all.sh.
 - When promped bring the display in DFU-Mode. To do so, connect boot to 3V3 (jumper on the display back), then press and release the displays reset button.
 - When finished, restart VORON
 
+# Props
 
+The script is based on this documentation:
 
+https://docs.vorondesign.com/community/howto/drachenkatze/automating_klipper_mcu_updates.html
+
+Thanks to [Domi](https://github.com/d0m1n1qu3) for providing the base script and the cheetah, display and rpi config fitting my voron0.2
