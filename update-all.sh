@@ -31,7 +31,6 @@ updateMCU() {
 updateDisplay() {
     make clean KCONFIG_CONFIG=$DISPLAY_CONFIG
     make menuconfig KCONFIG_CONFIG=$DISPLAY_CONFIG
-#    make KCONFIG_CONFIG=$DISPLAY_CONFIG
     make clean KCONFIG_CONFIG=$DISPLAY_CONFIG
     read -p "display firmware built, please check above for any errors. Press [Enter] to continue flashing, or [Ctrl+C] to abort"
 
@@ -63,8 +62,8 @@ sudo service klipper stop
 cd ~/klipper
 git pull
 
-#updateMCU
+updateMCU
 updateDisplay
-#updateRpi
+updateRpi
 
 sudo service klipper start

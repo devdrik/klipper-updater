@@ -17,6 +17,7 @@ Then run update-all.sh.
 
 ![klipper firmware configuration image](https://github.com/devdrik/klipper-updater/blob/main/assets/klipper_firmare_configuration.png?raw=true)
 
+- During display update make sure you select the correct optional features to avoid having a too big firmware. Correct settings to be found [here](https://github.com/VoronDesign/Voron-Hardware/blob/master/V0_Display/Documentation/Setup_and_Flashing_Guide.md)
 - When promped bring the display in DFU-Mode. To do so, connect boot to 3V3 (jumper on the display back), then press and release the displays reset button.
 - When finished, restart VORON
 
