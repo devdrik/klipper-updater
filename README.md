@@ -22,8 +22,8 @@ Then run update-all.sh.
 
 # Props
 
-The script is based on this documentation:
+The script is based on this documentation: https://docs.vorondesign.com/community/howto/drachenkatze/automating_klipper_mcu_updates.html
 
-https://docs.vorondesign.com/community/howto/drachenkatze/automating_klipper_mcu_updates.html
+And for the display this one: https://gitee.com/fysetc/Voron-Hardware/blob/master/V0_Display/Documentation/Setup_and_Flashing_Guide.md
 
-Thanks to [Domi](https://github.com/d0m1n1qu3) for providing the base script and the cheetah, display and rpi config fitting my voron0.2
+Thanks to [Domi](https://github.com/d0m1n1qu3) for providing the base script and the cheetah, display and rpi config fitting my voron0.2. I just added some convenience features.
